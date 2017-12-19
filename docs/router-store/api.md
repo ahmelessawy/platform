@@ -43,7 +43,7 @@ store.dispatch(new RouterActions.Go({
   path: ['/path', { routeParam: 1 }],
   query: { page: 1 },
   extras: { replaceUrl: false }
-});
+}));
 
 store.dispatch(new RouterActions.Back());
 
